@@ -3,7 +3,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 class Panel_admin extends CI_Controller
 {
-	//Memperbaiki comentr
+	//Memperbaiki coment
 	public function index()
 	{
 		$sess = $this->session->userdata('id_admin');

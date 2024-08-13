@@ -8,7 +8,7 @@ class Siswa extends CI_Controller {
     
     $this->load->model('SiswaModel');
   }
-  
+   // menambahkan //
   public function index(){
     $sess = $this->session->userdata('id_admin');
     $data['siswa'] = $this->SiswaModel->view();
